@@ -1,0 +1,92 @@
+import PropertyCard from "./property-card";
+
+const PropertiesGridContainer = () => {
+  return (
+    <div className="self-stretch flex flex-row flex-wrap items-start justify-center text-left text-mini-5 text-gray-700 font-body-regular-600">
+      <div className="flex-1 shrink-0 flex flex-row flex-wrap items-start justify-center gap-[8px]">
+        <PropertyCard
+          imageDimensions="/property-image@2x.png"
+          imageDimensionsText="/car@2x.png"
+          imageDimensionsText2="/bathtub@2x.png"
+          imageDimensionsText3="/arrowsout@2x.png"
+          imageDimensionsText4="/ellipse-1@2x.png"
+          imageDimensionsText5="/sharenetwork@2x.png"
+          imageDimensionsText6="/heart@2x.png"
+          imageDimensionsText7="/plus@2x.png"
+        />
+        <PropertyCard
+          imageDimensions="/property-image@2x.png"
+          imageDimensionsText="/car@2x.png"
+          imageDimensionsText2="/bathtub@2x.png"
+          imageDimensionsText3="/arrowsout@2x.png"
+          imageDimensionsText4="/ellipse-1@2x.png"
+          imageDimensionsText5="/sharenetwork@2x.png"
+          imageDimensionsText6="/heart@2x.png"
+          imageDimensionsText7="/plus@2x.png"
+        />
+        <PropertyCard
+          imageDimensions="/property-image@2x.png"
+          imageDimensionsText="/car@2x.png"
+          imageDimensionsText2="/bathtub@2x.png"
+          imageDimensionsText3="/arrowsout@2x.png"
+          imageDimensionsText4="/ellipse-1@2x.png"
+          imageDimensionsText5="/sharenetwork@2x.png"
+          imageDimensionsText6="/heart@2x.png"
+          imageDimensionsText7="/plus@2x.png"
+        />
+        <PropertyCard
+          imageDimensions="/property-image@2x.png"
+          imageDimensionsText="/car@2x.png"
+          imageDimensionsText2="/bathtub@2x.png"
+          imageDimensionsText3="/arrowsout@2x.png"
+          imageDimensionsText4="/ellipse-1@2x.png"
+          imageDimensionsText5="/sharenetwork@2x.png"
+          imageDimensionsText6="/heart@2x.png"
+          imageDimensionsText7="/plus@2x.png"
+        />
+        <PropertyCard
+          imageDimensions="/property-image@2x.png"
+          imageDimensionsText="/car@2x.png"
+          imageDimensionsText2="/bathtub@2x.png"
+          imageDimensionsText3="/arrowsout@2x.png"
+          imageDimensionsText4="/ellipse-1@2x.png"
+          imageDimensionsText5="/sharenetwork@2x.png"
+          imageDimensionsText6="/heart@2x.png"
+          imageDimensionsText7="/plus@2x.png"
+        />
+        <PropertyCard
+          imageDimensions="/property-image@2x.png"
+          imageDimensionsText="/car@2x.png"
+          imageDimensionsText2="/bathtub@2x.png"
+          imageDimensionsText3="/arrowsout@2x.png"
+          imageDimensionsText4="/ellipse-1@2x.png"
+          imageDimensionsText5="/sharenetwork@2x.png"
+          imageDimensionsText6="/heart@2x.png"
+          imageDimensionsText7="/plus@2x.png"
+        />
+        <PropertyCard
+          imageDimensions="/property-image@2x.png"
+          imageDimensionsText="/car@2x.png"
+          imageDimensionsText2="/bathtub@2x.png"
+          imageDimensionsText3="/arrowsout@2x.png"
+          imageDimensionsText4="/ellipse-1@2x.png"
+          imageDimensionsText5="/sharenetwork@2x.png"
+          imageDimensionsText6="/heart@2x.png"
+          imageDimensionsText7="/plus@2x.png"
+        />
+        <PropertyCard
+          imageDimensions="/property-image@2x.png"
+          imageDimensionsText="/car@2x.png"
+          imageDimensionsText2="/bathtub@2x.png"
+          imageDimensionsText3="/arrowsout@2x.png"
+          imageDimensionsText4="/ellipse-1@2x.png"
+          imageDimensionsText5="/sharenetwork@2x.png"
+          imageDimensionsText6="/heart@2x.png"
+          imageDimensionsText7="/plus@2x.png"
+        />
+      </div>
+    </div>
+  );
+};
+
+export default PropertiesGridContainer;
