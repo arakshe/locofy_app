@@ -1,13 +1,4 @@
-const PropertyCard = ({
-  imageDimensions,
-  imageDimensionsText,
-  imageDimensionsText2,
-  imageDimensionsText3,
-  imageDimensionsText4,
-  imageDimensionsText5,
-  imageDimensionsText6,
-  imageDimensionsText7,
-}) => {
+const PropertyCard = ({ imageDimensions, name, price }) => {
   return (
     <div className="rounded-3xs bg-gray-white box-border w-[350px] h-[467px] flex flex-col items-start justify-start py-[15px] px-[13px] gap-[23px] text-left text-mini-5 text-gray-700 font-body-regular-600 border-[1px] border-solid border-whitesmoke-200 hover:bg-gainsboro hover:cursor-pointer sm:w-[100%!important] sm:mb-5">
       <img
@@ -25,28 +16,28 @@ const PropertyCard = ({
           $ 590,693
         </div>
       </div>
-      <div className="self-stretch flex flex-row items-start justify-start py-0 px-2.5 gap-[17px] text-2xs-8 text-gray-500">
+      <div className="flex flex-row items-start justify-start py-0 px-2.5 gap-[17px] text-2xs-8 text-gray-500">
         <div className="shrink-0 flex flex-row items-center justify-start gap-[4.35px]">
           <img
-            className="relative w-[17.4px] h-[17.4px] object-cover"
+            className="w-[17.4px] h-[17.4px] object-cover"
             alt=""
-            src={imageDimensionsText}
+            src="/property-image@2x.png"
+          />
+          <div className="leading-[16.27px] font-medium">4</div>
+        </div>
+        <div className="shrink-0 flex flex-row items-center justify-start gap-[4.35px]">
+          <img
+            className="w-[17.4px] h-[17.4px] object-cover"
+            alt=""
+            src="/property-image@2x.png"
           />
           <div className="relative leading-[16.27px] font-medium">4</div>
         </div>
         <div className="shrink-0 flex flex-row items-center justify-start gap-[4.35px]">
           <img
-            className="relative w-[17.4px] h-[17.4px] object-cover"
+            className="w-[17.4px] h-[17.4px] object-cover"
             alt=""
-            src={imageDimensionsText2}
-          />
-          <div className="relative leading-[16.27px] font-medium">4</div>
-        </div>
-        <div className="shrink-0 flex flex-row items-center justify-start gap-[4.35px]">
-          <img
-            className="relative w-[17.4px] h-[17.4px] object-cover"
-            alt=""
-            src={imageDimensionsText3}
+            src="/arrowsout@2x.png"
           />
           <div className="relative leading-[16.27px] font-medium">
             2,096.00 ft
@@ -56,9 +47,9 @@ const PropertyCard = ({
       <div className="self-stretch flex flex-row items-center justify-between text-center text-xs-6">
         <div className="shrink-0 flex flex-row items-center justify-start gap-[5.81px]">
           <img
-            className="relative rounded-[50%] w-[27.6px] h-[27.6px] object-cover"
+            className="rounded-[50%] w-[27.6px] h-[27.6px] object-cover"
             alt=""
-            src={imageDimensionsText4}
+            src="/ellipse-1@2x.png"
           />
           <div className="relative leading-[17.42px] font-medium">
             Jenny Wilson
@@ -67,23 +58,23 @@ const PropertyCard = ({
         <div className="shrink-0 flex flex-row items-start justify-start gap-[8.71px]">
           <div className="rounded-[1.45px] bg-primary-50 shrink-0 flex flex-row items-start justify-start p-[2.902620315551758px]">
             <img
-              className="relative w-[14.5px] h-[14.5px] object-cover"
+              className="w-[14.5px] h-[14.5px] object-cover"
               alt=""
-              src={imageDimensionsText5}
+              src="/sharenetwork@2x.png"
             />
           </div>
           <div className="rounded-[1.45px] bg-primary-50 shrink-0 flex flex-row items-start justify-start p-[2.902620315551758px]">
             <img
-              className="relative w-[14.5px] h-[14.5px] object-cover"
+              className="w-[14.5px] h-[14.5px] object-cover"
               alt=""
-              src={imageDimensionsText6}
+              src="/heart@2x.png"
             />
           </div>
           <div className="rounded-[1.45px] bg-primary-50 shrink-0 flex flex-row items-start justify-start p-[2.902620315551758px]">
             <img
-              className="relative w-[14.5px] h-[14.5px] object-cover"
+              className="w-[14.5px] h-[14.5px] object-cover"
               alt=""
-              src={imageDimensionsText7}
+              src="/plus@2x.png"
             />
           </div>
         </div>

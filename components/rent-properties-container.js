@@ -15,10 +15,10 @@ const RentPropertiesContainer = () => {
           </div>
         </div>
         <div className="self-stretch flex flex-row flex-wrap items-center justify-center py-0 px-2.5 gap-[32px] text-left text-mini-5 text-gray-700">
-          <PropertyRentCard imageDimensions="/property-image@2x.png" />
-          <PropertyRentCard imageDimensions="/property-image@2x.png" />
-          <PropertyRentCard imageDimensions="/property-image@2x.png" />
-          <PropertyRentCard imageDimensions="/property-image@2x.png" />
+          <PropertyRentCard imgUrl="/property-image@2x.png" name="92 Allium Place, Orlando FL" price="590,632"/>
+          <PropertyRentCard imgUrl="/property-image@2x.png" name="92 Allium Place, Orlando FL" price="590,632"/>
+          <PropertyRentCard imgUrl="/property-image@2x.png" name="92 Allium Place, Orlando FL" price="590,632"/>
+          <PropertyRentCard imgUrl="/property-image@2x.png" name="92 Allium Place, Orlando FL" price="590,632"/>
         </div>
       </div>
       <button className="cursor-pointer [border:none] py-3 px-6 bg-primary-500 rounded flex flex-row items-start justify-start hover:bg-royalblue sm:max-w-full">
